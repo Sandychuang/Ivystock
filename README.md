@@ -1,10 +1,10 @@
 # Ivystock
 [原创]做一个简洁好用的量化工具-Ivystock
 
-#安装
+# 安装
 pip install Ivystock
 
-#帮助
+# 帮助
     香港
     code='0336.HK'
     深市
@@ -18,7 +18,7 @@ pip install Ivystock
     美股
     code='AAPL'
     
-#例子    
+# 例子    
     
     from ivystock import ivystock as ivy
 
