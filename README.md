@@ -25,12 +25,12 @@ from ivystock import ivystock as ivy
 if __name__ == '__main__':
     code = '0336.HK'
     stock = ivy.Ivystock()
-   # SS.begin = SS.datetime_timestamp("2018-1-1 09:00:00")
+    SS.begin = SS.datetime_timestamp("2018-1-1 09:00:00")
     stock.help()
     stock.get(code)
     stock.plot(code)
 
- #   hl50 = r"http://www.csindex.com.cn/uploads/file/autofile/cons/000015cons.xls"
+    hl50 = r"http://www.csindex.com.cn/uploads/file/autofile/cons/000015cons.xls"
     hs300 = r"http://www.csindex.com.cn/uploads/file/autofile/closeweight/000300closeweight.xls"
 
     aa = stock.get_code(hs300)
