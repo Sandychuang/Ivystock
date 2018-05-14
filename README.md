@@ -25,7 +25,7 @@ pip install Ivystock
     if __name__ == '__main__':
         code = '0336.HK'
         stock = ivy.Ivystock()
-        SS.begin = SS.datetime_timestamp("2018-1-1 09:00:00")
+        stock.begin = stock.datetime_timestamp("2018-1-1 09:00:00")
         stock.help()
         stock.get(code)
         stock.plot(code)
