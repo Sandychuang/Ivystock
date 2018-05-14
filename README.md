@@ -20,19 +20,19 @@ pip install Ivystock
     
 #例子    
     
-from ivystock import ivystock as ivy
+    from ivystock import ivystock as ivy
 
-if __name__ == '__main__':
-    code = '0336.HK'
-    stock = ivy.Ivystock()
-    SS.begin = SS.datetime_timestamp("2018-1-1 09:00:00")
-    stock.help()
-    stock.get(code)
-    stock.plot(code)
+    if __name__ == '__main__':
+        code = '0336.HK'
+        stock = ivy.Ivystock()
+        SS.begin = SS.datetime_timestamp("2018-1-1 09:00:00")
+        stock.help()
+        stock.get(code)
+        stock.plot(code)
 
-    hl50 = r"http://www.csindex.com.cn/uploads/file/autofile/cons/000015cons.xls"
-    hs300 = r"http://www.csindex.com.cn/uploads/file/autofile/closeweight/000300closeweight.xls"
+        hl50 = r"http://www.csindex.com.cn/uploads/file/autofile/cons/000015cons.xls"
+        hs300 = r"http://www.csindex.com.cn/uploads/file/autofile/closeweight/000300closeweight.xls"
 
-    aa = stock.get_code(hs300)
-    #红利50
-    dd = stock.get_code('hl50')
+        aa = stock.get_code(hs300)
+        #红利50
+        dd = stock.get_code('hl50')
