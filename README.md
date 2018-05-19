@@ -34,10 +34,21 @@ pip install Ivystock
         hs300 = r"http://www.csindex.com.cn/uploads/file/autofile/closeweight/000300closeweight.xls"
 
         aa = stock.get_code(hs300)
-        #红利50https://github-1256146603.cos.ap-shanghai.myqcloud.com/feixiong.jpg
+        #红利50
         dd = stock.get_code('hl50')
+        #stock.get_list(dd)
+        #stock.preprocess(dd,['Date','Close'])
+
+        #futurelist = ['TA0','RS0','RM0']
+        #code = 'A0'
+        #stock.get_future(futurelist)
+        #tick = stock.get_dick(code, '5m')
+        #tick1m = stock.get_1m(code)
+        #futurelist=['0336.HK']
+        #stock.preprocess(futurelist)
+    
         
-# 组团hack
+# 组团hacking
 
 招募小伙伴，如果你有想法，有技术，可以联系我，共同hacking
 
